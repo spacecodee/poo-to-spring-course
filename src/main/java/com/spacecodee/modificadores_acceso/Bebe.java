@@ -11,4 +11,8 @@ public class Bebe {
     private String dni;
     private String nombre;
     private String apellido;
+
+    public String llorar() {
+        return "Bebe llorando";
+    }
 }

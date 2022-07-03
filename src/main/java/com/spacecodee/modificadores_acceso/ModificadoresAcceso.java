@@ -1,7 +1,5 @@
 package com.spacecodee.modificadores_acceso;
 
-import com.spacecodee.good_practice.GoodPractices;
-
 public class ModificadoresAcceso {
     //public => accesible desde cualquier lugar
     //private => accesible solo desde la misma clase
@@ -28,7 +26,11 @@ public class ModificadoresAcceso {
     public static void main(String[] args) {
         Bebe returnValue = ModificadoresAcceso.antesDeNacer();
         System.out.println("returnValue = " + returnValue);
-        Bebe returnValue2 = ModificadoresAcceso.despuesDeNacer();
-        System.out.println("\nreturnValue2 = " + returnValue2);
+        Bebe bebeMateoF = ModificadoresAcceso.despuesDeNacer();
+        System.out.println("\nbebeMateoF = " + bebeMateoF);
+
+        System.out.println("********************");
+        bebeMateoF.llorar();
+        System.out.println("Bebe Llora");
     }
 }
