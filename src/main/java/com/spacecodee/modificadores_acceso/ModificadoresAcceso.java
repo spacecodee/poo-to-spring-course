@@ -1,5 +1,9 @@
 package com.spacecodee.modificadores_acceso;
 
+import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
+
+import javax.xml.bind.SchemaOutputResolver;
+
 public class ModificadoresAcceso {
     //public => accesible desde cualquier lugar
     //private => accesible solo desde la misma clase
@@ -30,7 +34,7 @@ public class ModificadoresAcceso {
         System.out.println("\nbebeMateoF = " + bebeMateoF);
 
         System.out.println("********************");
-        bebeMateoF.llorar();
-        System.out.println("Bebe Llora");
+      //  bebeMateoF.llorar();
+        System.out.println("el bebe llora:"+ bebeMateoF.llorar() );
     }
 }
