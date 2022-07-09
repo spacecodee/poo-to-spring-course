@@ -15,4 +15,16 @@ public class Bebe {
     public String llorar() {
         return "Bebe llorando";
     }
+
+    public String aprenderGatear() {
+        return "Bebé aprendiendo a gatear";
+    }
+
+    public String aprendiendoCaminar() {
+        return "Bebé aprendiendo a caminar";
+    }
+
+    public String comer() {
+        return "Bebé comiendo";
+    }
 }

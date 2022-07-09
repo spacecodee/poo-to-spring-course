@@ -1,5 +1,8 @@
 package com.spacecodee.good_practice;
 
+import com.spacecodee.modificadores_acceso.ModificadoresAcceso;
+import lombok.var;
+
 public class GoodPractices {
     //Java => nomenclatura camelCase
     //variables => area ✅ | Area ❌ | AREA ❌ || firstName ✅ | firstname | FirstName
@@ -21,5 +24,9 @@ public class GoodPractices {
     //los metodos solo pueden tener maximo hasta 15 lineas de codigo
 
     public static void main(String[] args) {
+        ModificadoresAcceso marco = new ModificadoresAcceso();
+        marco.hola();
+
+        var myVariable = ModificadoresAcceso.despuesDeNacer();
     }
 }
