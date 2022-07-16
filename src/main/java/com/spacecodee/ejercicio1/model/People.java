@@ -1,4 +1,4 @@
-package com.spacecodee.ejercicio1;
+package com.spacecodee.ejercicio1.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +11,6 @@ import java.util.Set;
 @NoArgsConstructor
 @Data
 public class People {
-    private int id;
     private String dni;
     private String name;
     private String lastName;

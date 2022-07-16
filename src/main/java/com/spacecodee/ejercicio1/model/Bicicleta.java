@@ -1,4 +1,4 @@
-package com.spacecodee.ejercicio1;
+package com.spacecodee.ejercicio1.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
