@@ -136,7 +136,13 @@ public class MainExercise {
                                 }
                                 break;
                             case 3:
-                                System.out.println("Eliminar persona");
+                                String delePeople = MainExercise.getDni();
+                                globalPeoples.forEach(people1 -> {
+                                    if (people1.getDni().equals(delePeople)) {
+                                        globalPeoples.remove(people1);
+                                        System.out.println("Persona eliminada con éxito");
+                                    }
+                                });
                                 break;
                             case 4:
                                 String dni = MainExercise.getDni();
