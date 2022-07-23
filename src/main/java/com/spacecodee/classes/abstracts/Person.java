@@ -26,6 +26,8 @@ public abstract class Person {
     protected void eat() {
         System.out.println("Comiendo...");
     }
+
+
 }
 
 /*
