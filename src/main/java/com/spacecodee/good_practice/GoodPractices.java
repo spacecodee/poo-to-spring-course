@@ -26,6 +26,7 @@ public class GoodPractices {
     public static void main(String[] args) {
         ModificadoresAcceso marco = new ModificadoresAcceso();
         marco.hola();
+        //-128 hasta +127
 
         var myVariable = ModificadoresAcceso.despuesDeNacer();
     }

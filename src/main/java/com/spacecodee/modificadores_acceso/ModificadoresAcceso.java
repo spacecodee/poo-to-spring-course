@@ -1,7 +1,7 @@
 package com.spacecodee.modificadores_acceso;
 
 public class ModificadoresAcceso {
-    /*TODO: public → accesible desde cualquier lugar
+    /*Public → accesible desde cualquier lugar
      * private → accesible solo desde la misma clase
      * protected → accesible desde la misma clase y desde clases que heredan de esta
      * default o package → accesible desde la misma clase y desde clases que heredan de esta
@@ -11,7 +11,7 @@ public class ModificadoresAcceso {
      */
 
     /*
-     * TODO: ¿qué es un objeto? → un objeto es una instancia de una clase
+     * ¿qué es un objeto? → un objeto es una instancia de una clase
      *     ¿qué es una clase? → una clase es una plantilla para crear objetos
      *  */
 
