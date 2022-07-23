@@ -22,6 +22,10 @@ public abstract class Person {
         this.name = name;
         this.lastName = lastName;
     }
+
+    protected void eat() {
+        System.out.println("Comiendo...");
+    }
 }
 
 /*

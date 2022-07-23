@@ -16,8 +16,6 @@ public class ClasesAbstractas {
         person = new Ingeniero(12345678, "Mateo", "Fernandez Sandoval", "Ingeniero", (short) 10,
                                new String[]{"Java", "C++", "C#"});
         System.out.println("person = " + person);
-
-        person = new Ingeniero("Ingeniero", (short) 10, new String[]{"Java", "C++", "C#"});
-        System.out.println("person = " + person);
+        person.eat();
     }
 }

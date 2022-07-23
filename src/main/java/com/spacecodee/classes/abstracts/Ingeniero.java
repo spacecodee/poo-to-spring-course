@@ -23,4 +23,9 @@ public class Ingeniero extends Person {
     public String getFullName() {
         return super.getName() + " " + super.getLastName();
     }
+
+    @Override
+    protected void eat() {
+        System.out.println("Comiendo una Manzana...");
+    }
 }
